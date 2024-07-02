@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I LOVE MY GIRL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcccc;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #ff6699;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #ff6699;
+            font-weight: bold;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .biografia, .blogs, .imagenes {
+            margin-bottom: 20px;
+        }
+        .biografia h2, .blogs h2, .imagenes h2 {
+            color: #ff6699;
+        }
+        footer {
+            background-color: #ffcccc;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I LOVE MY GIRL</h1>
+    </header>
+    <nav>
+        <a href="#biografia">Biografía</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#imagenes">Imágenes</a>
+    </nav>
+    <div class="content">
+        <section id="biografia" class="biografia">
+            <h2>Biografía</h2>
+            <p>Aquí va la biografía sobre la chica que amas. Puedes agregar detalles sobre cómo se conocieron, qué es lo que más te gusta de ella, y cualquier otro dato que consideres importante.</p>
+        </section>
+        <section id="blogs" class="blogs">
+            <h2>Blogs</h2>
+            <p>Aquí puedes escribir entradas de blog sobre tus experiencias, pensamientos y sentimientos relacionados con la chica que amas. Cada entrada puede ser una nueva historia o reflexión.</p>
+        </section>
+        <section id="imagenes" class="imagenes">
+            <h2>Imágenes</h2>
+            <p>Aquí puedes agregar imágenes que representen momentos especiales o simplemente fotos que te gusten de ella. Puedes agregar descripciones para cada imagen si lo deseas.</p>
+        </section>
+    </div>
+    <footer>
+        <p>Creado con amor por ti.</p>
+    </footer>
+</body>
+</html>
